@@ -25,3 +25,4 @@ cmd.md
 public/mix-manifest.json
 composer.lock
 storage-db/*
+.vagrant/*
