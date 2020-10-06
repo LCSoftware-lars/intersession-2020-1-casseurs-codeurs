@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/html":{"owner":"vagrant","group":"www-data","guestpath":"/var/www/html","hostpath":"/Volumes/DATA/Github/Black0wl/intersession-2020-1-casseurs-codeurs","disabled":false,"__vagrantfile":true}}}

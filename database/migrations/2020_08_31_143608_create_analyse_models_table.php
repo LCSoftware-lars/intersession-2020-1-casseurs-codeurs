@@ -25,7 +25,9 @@ class CreateAnalyseModelsTable extends Migration
             $table->integer('totalSecurityFails');
             $table->integer('scannedFiles');
             $table->integer('numberOfScans');
-            $table->json('files');
+            // json not supported with MariaDb
+            // fix with texdt or https://github.com/ybr-nx/laravel-mariadb
+            $table->text('files');
             $table->timestamps();
         });
     }
