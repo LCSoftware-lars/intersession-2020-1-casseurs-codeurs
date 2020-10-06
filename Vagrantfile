@@ -131,6 +131,11 @@ echo "Vous pouvez ajouter la clé suivante à votre dépôt Git\n"
 cat $HOME/.ssh/id_rsa.pub
 
 echo "+--------------------------------------------\n"
+echo "Lancement de l'application"
+sudo chmod a+x /var/www/html/init.sh
+/var/www/html/init.sh
+
+echo "+--------------------------------------------\n"
 echo "Installation terminée."
 echo "+--------------------------------------------\n"
 
